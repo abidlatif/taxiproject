@@ -1,2 +1,6 @@
-FROM python 3.12.1
+FROM python:3.12.1
+
 RUN pip install pandas
+
+ENTRYPOINT [ "bash" ]
+
